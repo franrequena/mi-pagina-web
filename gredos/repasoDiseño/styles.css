@@ -1,0 +1,181 @@
+.cabecera {
+    border: solid 2px red;
+    display: flex;
+    justify-content: center;
+}
+
+.contenidoCabecera {
+    border: solid 2px blue;
+    width: 945px;
+    height: auto;
+}
+
+.informacionContacto {
+    border: solid 2px green;
+    width: 942px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.informacionContacto p span{
+    margin-right: 5px;
+    margin-left: 5px;
+    color: olivedrab;
+}
+
+.informacionContacto p {
+    margin: 0;
+}
+
+.imagenMenu {
+    display: flex;
+    justify-content: center;
+    width: 998px;
+}
+
+.imagenMenu table {
+    margin-top: 10%;
+    border-collapse: collapse;
+}
+
+.imagenMenu tr td {
+
+    margin: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-left: 1px grey solid;
+    border-right: 1px grey solid;
+}
+
+a {
+    text-decoration: none;
+    color: olivedrab;
+}
+
+.banner {
+    width: 1500px;
+    border: 2px solid blue;
+    display: flex;
+    justify-content: center;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.contenedorBanner {
+    display: flex;
+    justify-content: center;
+}
+
+.contenedorContenido {
+    display: flex;
+    justify-content: center;
+}
+
+.contenido {
+    border: 2px solid black;
+    width: 945px;
+    justify-content: center;
+}
+
+.contenido p{
+    font-family: Goblin One;
+    color: olivedrab;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+}
+
+.goblin-one-regular {
+    font-family: "Goblin One", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.imagenes {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.imagenes img {
+    width: 250px;
+}
+
+.imagenes div {
+    width: 250px;
+    text-align: center;
+}
+
+.imagenes div p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+}
+
+button {
+    height: 50px;
+    width: 90px;
+    border-radius: 20px;
+    color: white;
+    background-color: olivedrab;
+}
+
+.contenedorPie {
+    display: flex;
+    justify-content: center;
+    height: 270px;
+    background-color: darkgreen;
+    width: 100%;
+}
+
+.contenidoPie {
+    justify-content: center;
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+    width: 945px;
+    box-shadow: 0px 5px 20px darkolivegreen;
+    height: 170px;
+}
+
+.info p {
+    color: white;
+}
+
+.logos img {
+    width: 70px;
+    
+}
+
+.logos {
+    margin-top: 5%;
+}
+
+.derechos {
+    width: 456px;
+    border:1px solid black ;
+    
+}
+
+
+.datos p {
+    float: left;
+    color: white;
+}
+
+.datos ul  {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    color: grey;
+}
+
+.datos span {
+    float: right;
+}
